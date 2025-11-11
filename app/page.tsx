@@ -32,7 +32,7 @@ export default function Home() {
       <div className="w-full max-w-md">
         <div className="glass rounded-3xl p-8 shadow-2xl">
           <h1 className="text-3xl font-bold text-white mb-8 text-center">
-            Todo List
+            할일 목록 관리
           </h1>
           
           <TodoForm onAdd={handleAdd} />
